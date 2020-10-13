@@ -1,0 +1,11 @@
+.btn-success {
+    height: 36px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.form,
+.formBtn {
+    margin: 10px 0;
+}
