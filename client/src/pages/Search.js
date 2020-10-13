@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Form from "../components/Form/Form.js";
-// import Results from "../components/Results/Results.js";
+import Results from "../components/Results/Results.js";
 import API from "../utils/API";
 
 class Search extends Component {
@@ -57,7 +57,7 @@ class Search extends Component {
                 />
                 <div className="container">
                     <h2>Results</h2>
-                    {/* <Results books={this.state.books} /> */}
+                    <Results books={this.state.books} />
                 </div>
             </div>
         )}
