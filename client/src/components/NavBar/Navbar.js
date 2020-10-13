@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg bg-secondary">
             <div className="container">
                 <Link className="navbar-brand text-light" to="/">
-                    Google Books Search
+                    Google Books Search (React)
                 </Link>
                 <ul className="navbar-nav">
                     <li className="nav-item">
